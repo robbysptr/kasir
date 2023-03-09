@@ -1,0 +1,151 @@
+.card-counter{
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px rgb(24, 24, 24);
+    transition: .1s linear all;
+  }
+
+  .card-counter.primary{
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }  
+
+  .card-counter.warning{
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+    color: #FFF;
+  }  
+
+  .card-counter.uangmodal{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+  .card-counter.toko{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.user{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.category{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }
+
+  .card-counter.supplier{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+  
+  .card-counter.gudang{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }
+  
+  .card-counter.retur{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.returkeseluruhan{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.penjualanhariini{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pembelianharini{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.penjulankeseluruhan{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pembeiankeseluruhan{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pendapatjualharini{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pendapatjualkeseluruhan{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pendapatanbeliharini{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter.pendapatanbelikeseluruhan{
+    background-image: linear-gradient(to right, #ee0979,#ff6a00);
+    color: #FFF;
+  }  
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 25px;
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+  }
+
+  .card-counter .count-sub-name{
+    position: absolute;
+    left: 30px;
+    top: 87px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 10px;
+  }
